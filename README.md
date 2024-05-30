@@ -30,3 +30,7 @@ How to create custom .mp4 backgrounds on MS Teams
 https://redketchup.io/gif-resizer
 https://convertio.co/
 # USE FREE SITES AT YOUR OWN RISK
+**Examples of file analysis sites**
+https://www.joesandbox.com/#windows
+https://www.hybrid-analysis.com/
+https://www.virustotal.com/gui/home/upload
