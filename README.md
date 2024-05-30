@@ -25,3 +25,8 @@ How to create custom .mp4 backgrounds on MS Teams
 > 5. Remember the 4 original .mp4 images, you will need to select the thumbnail for it to get it to work.
 > 6. You now have custom .gifs to .mp4s as backgrounds.
 > 7. ...you're welcome...
+
+**Resources used for testing:**
+https://redketchup.io/gif-resizer
+https://convertio.co/
+# USE FREE SITES AT YOUR OWN RISK
