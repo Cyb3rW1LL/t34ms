@@ -12,7 +12,7 @@ How to create custom .mp4 backgrounds on MS Teams
 
 **How to change your Teams animated backgrounds:**
 > 1. Navigate to this file location if you are using new Teams:
-> 'C:\Users\<your username here>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds'
+> 'C:\Users\\<your username here>\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds'
 > 2. Copy the 4 .mp4 files that are currently in there and save them off in a file elsewhere (just in case)
 > 3. Download Gifs (check them for malware) as per teams size standards, convert them to .mp4s (scan again for malware if doing this from the web)
 > 4. Change the name of your .mp4 to match any of the names of the original .mp4s you saved earlier.
