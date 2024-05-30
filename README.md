@@ -14,17 +14,18 @@ How to create custom .mp4 backgrounds on MS Teams
 > 1. Navigate to this file location if you are using new Teams:
 > 'C:\Users\your username here\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds'
 > 2. Copy the 4 .mp4 files that are currently in there and save them off in a file elsewhere (just in case)
-> 3. Download Gifs (check them for malware) as per teams size standards, convert them to .mp4s (scan again for malware if doing this from the web)
+> 3. Delete the 4 original T34M$ .mp4s (you saved them already, don't worry)
+> 4. Download Gifs (check them for malware) as per teams size standards, convert them to .mp4s (scan again for malware if doing this from the web)
      <p align="left">
       <img width=25% height=25% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/9af2136c-4a61-4cef-9ccd-d2e227dc53c5>
      </p>
-> 4. Change the name of your .mp4 to match any of the names of the original .mp4s you saved earlier.
+> 5. Change the name of your .mp4 to match any of the names of the original .mp4s you saved earlier.
      <p align="left">
       <img width=45% height=45% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/d731f658-af79-478c-b5f0-57c7d5757a4f>
      </p>
-> 5. Remember the 4 original .mp4 images, you will need to select the thumbnail for it to get it to work.
-> 6. You now have custom .gifs to .mp4s as backgrounds.
-> 7. ...you're welcome...
+> 6. Remember the 4 original .mp4 images, you will need to select the thumbnail for it to get it to work.
+> 7. You now have custom .gifs to .mp4s as backgrounds.
+> 8. ...you're welcome...
 
 **Resources used for testing:**
 https://redketchup.io/gif-resizer
