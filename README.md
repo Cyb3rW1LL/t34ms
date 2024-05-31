@@ -11,7 +11,7 @@ How to create custom .mp4 backgrounds on MS Teams
 </p>
 
 **READ.me:**
-> 1. Navigate to this file location if you are using new Teams:
+> 1. Navigate to this folder location if you are using new Teams:
 > 'C:\Users\your username here\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds'
 > 2. Copy the (4) .mp4 files that are currently in the "Backgrounds" folder and save them off in a file elsewhere (just in case). An easy visual cue for .mp4s is the film "stripe" along the sides of the file, as well as the file extension of ".mp4". In T34M$ "Video effects and settings," it will look like the image on the right:
      <p align="left">
