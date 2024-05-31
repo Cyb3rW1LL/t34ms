@@ -18,7 +18,7 @@ How to create custom .mp4 backgrounds on MS Teams
      <img width=50% height=50% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/afcb17a6-f745-4056-98ed-e0f2f94b32c4>
      <img width=25% height=25% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/964b06e0-472b-4801-bc06-c49fc0273c12>
 > 3. Delete the 4 original T34M$ .mp4s (you saved them already, don't worry)
-> 4. **(If you are already using an adequately sized .mp4, move to step (5))**. Download Gifs (check them for malware) -- or just use your own .mp4s -- as per teams size standards, convert them to .mp4s (scan again for malware if doing this from the web)
+> 4. **(If you are already using an adequately sized .mp4, move to step (5))**. Download Gifs (check them for malware) -- or just use your own .mp4s -- as per T34M$ size standards, convert them to .mp4s (scan again for malware if doing this from the web)
      <p align="left">
       <img width=25% height=25% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/9af2136c-4a61-4cef-9ccd-d2e227dc53c5>
      </p>
