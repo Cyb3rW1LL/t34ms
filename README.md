@@ -40,3 +40,6 @@ https://www.joesandbox.com/#windows
 https://www.hybrid-analysis.com/
 https://www.virustotal.com/gui/home/upload
 https://urlscan.io/
+
+# A great comprehensive write-up for using .gifs and .mp4s can be found here
+https://lazyadmin.nl/office-365/microsoft-teams-animated-background/
