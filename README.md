@@ -3,7 +3,6 @@ How to create custom .mp4 backgrounds on MS Teams
 
 <p align="center">
 <img width=25% height=25% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/a0ef142f-ddc4-4d16-b788-a1646aeb2cbe>
->
   <img width=25% height=25% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/7dc5d02c-3600-41f6-bb1c-56a8b74dedfe>
 </p>
 <p align="center">
