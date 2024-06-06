@@ -1,6 +1,6 @@
 # t34m$
 
-### How to create custom mp4s and image and gif overlays for MS T34m$ animated backgrounds backgrounds:
+### How to create custom mp4s and image and gif overlays for MS T34m$ animated backgrounds:
 USE MICROSOFT DESIGNER!!! XD
 https://designer.microsoft.com/
 
