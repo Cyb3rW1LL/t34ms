@@ -27,7 +27,7 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     # Start the new process
     [System.Diagnostics.Process]::Start($newProcess) | Out-Null;
     
-    # Exit the current script
+    # Exit the current condition
     exit;
 }
 
@@ -43,13 +43,11 @@ if (-Not (Test-Path -Path $source)) {
     Invoke-Item $source
 }
 
-
 # This gets the contents of the gif folder
 $gifs = Get-ChildItem -Path $source -Filter *.gif -File
 
 # For loop to iterate through the gif folder and generate a new GUID per gif in the folder
-
-# Start the while loop
+# Start the while loop for user input validation
 while ($continue -ne "y") {
     # Prompt the user for input
     $continue = Read-Host "Copy your '.gifs' into the folder and PLEASE ENTER 'y' TO PROCEED"
@@ -73,12 +71,10 @@ foreach ($file in $gifs) {
 
     # Copy the renamed file to create a new _thumb.jpg file
     Copy-Item -Path $new_filename -Destination $new_thumb_filename
-
 }
 
 # Copy both the new files from your gif path to the Destination MS Teams Uploads path
 copy-item -Path "C:\Users\$user\Pictures\Teams_Gifs\*" -Destination "C:\Users\$user\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads\"
-
 
 # We revert to the local machine execution policy
 Set-ExecutionPolicy $policy -Force
