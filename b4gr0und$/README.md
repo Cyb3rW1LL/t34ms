@@ -21,7 +21,7 @@
 > 6. Now, move your '.gifs' into the "Teams_Gifs" folder that opens when you run the script and delete the originals from your downloads folder
 > 7. In the powershell terminal, press lowercase 'y' when you are finished and nothing else!
 > 8. The script will complete execution and your backgrounds will be in your Teams folder
-> 9. Finally, when you open Teams, before you join a call or during, go to your "video effects and settings" icon or locate it in-call by way of the "..." option on your toolbar near the top of the Teams window (it says "More" underneath it), and choose the new custom background you want tehn apply it
+> 9. Finally, when you open Teams, before you join a call or during, go to your "video effects and settings" icon or locate it in-call by way of the "..." option on your toolbar near the top of the Teams window (it says "More" underneath it), and choose the new custom background you want to apply
 > 10. You're welcome... 
 
 # USE FREE SITES AT YOUR OWN RISK
