@@ -12,7 +12,7 @@
 > 1. Go to a '.gif' site like https://www.tenor.com
 > 2. Search for and download '.gifs' you like
 > 3. Run the scipt anyway you like, but the easiest way is to download it, then right-click, select "openwith," then select "powershell ISE"
-> 4. Slect the little green arrow: 
+> 4. Select the little green arrow: 
 <p alignt="left">
 <img width=50% height=50% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/28437919-ba3c-4864-89b4-ce1585e4167f>
 </p>
