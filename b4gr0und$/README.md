@@ -17,7 +17,7 @@
 <img width=50% height=50% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/28437919-ba3c-4864-89b4-ce1585e4167f>
 </p>
 
-> 5. Then select "Yes" when the prompt for powershell opens to allow the script to run as administrator (It will be fine, you can copy this script into an NLP service like chat OpenAI Chat-GPT, MS Copilot, or Google Gemini, etc)
+> 5. Then select "Yes" when the prompt for powershell opens to allow the script to run as administrator (It will be fine, you can copy this script into an NLP service like OpenAI Chat-GPT, MS Copilot, or Google Gemini, etc)
 > 6. Now, move your '.gifs' into the "Teams_Gifs" folder that opens when you run the script and delete the originals
 > 7. Press lowercase 'y' when you are finished and nothing else!
 > 8. The script will complete execution and your backgrounds will be in your your Teams folder
