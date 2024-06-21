@@ -18,8 +18,8 @@
 </p>
 
 > 5. Then select "Yes" when the prompt for powershell opens to allow the script to run as administrator (It will be fine, you can copy this script into an NLP service like OpenAI Chat-GPT, MS Copilot, or Google Gemini, etc)
-> 6. Now, move your '.gifs' into the "Teams_Gifs" folder that opens when you run the script and delete the originals
-> 7. Press lowercase 'y' when you are finished and nothing else!
+> 6. Now, move your '.gifs' into the "Teams_Gifs" folder that opens when you run the script and delete the originals from your downloads folder
+> 7. In the powershell terminal, press lowercase 'y' when you are finished and nothing else!
 > 8. The script will complete execution and your backgrounds will be in your Teams folder
 > 9. Finally, when you open Teams, before you join a call, go to your "video and background" settings by way of the "..." option on your toolbar near the top of the Teams window, and choose the new custom background you want
 > 10. You're welcome... 
