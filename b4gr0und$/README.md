@@ -1,6 +1,6 @@
 # Ch4ng3r.ps1
 
-## This is a cute little powershell script to generate GUIDS, rename, and copy '.gif' into '.jpg' files for custom MS Teams backgrounds
+## This is a cheeky little powershell script to generate GUIDS, rename, and copy '.gif' into '.jpg' files for custom MS Teams backgrounds
 
 ### Shane's approval...
 <p align="center">
