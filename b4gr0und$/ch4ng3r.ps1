@@ -58,9 +58,7 @@ while ($continue -ne "y") {
     }
 }
 
-# Perform the action after 'y' is entered
-Write-Host "Proceeding with the next steps..."
-
+# For loop to generate the GUIDs, copy, and rename them
 foreach ($file in $gifs) {
     $GUID = [guid]::NewGuid().ToString()
     $new_filename = Join-Path -Path $file.DirectoryName -ChildPath "$GUID.jpg"
