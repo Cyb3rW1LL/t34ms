@@ -1,6 +1,8 @@
 # AUthor: Cyb3rW1LL
 # Created: 06/20/2024
 #
+#
+#
 # This will get the current execution policy of the host and save it in the $policy variable
 # We reset the this value for the current security policy settings at the end.
 $policy = Get-ExecutionPolicy
@@ -14,6 +16,8 @@ $destination = "C:\Users\$user\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Loca
 
 # This next section of code will run the script in an elevated powershell instance, a.k.a "Administrator"
 # and prompt you to allow the execution, click "yes."
+
+
 
 # First check if the script is running with administrator privileges
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
@@ -30,19 +34,38 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     exit;
 }
 
+
 # We test the path of the gif folder and create it if not already created
 if (-Not (Test-Path -Path $source)) {
     Write-Host '"Teams_Gifs" does not exist! Creating the folder now!'
     New-Item -ItemType Directory -Path $source
     Write-Host '"Teams_Gifs" created!'
+    Invoke-Item $source
 } else {
-    Write-Host "Folder already exists"
+    Write-Host "Folder already exists, opening!"
+    Invoke-Item $source
 }
+
 
 # This gets the contents of the gif folder
 $gifs = Get-ChildItem -Path $source -Filter *.gif -File
 
 # For loop to iterate through the gif folder and generate a new GUID per gif in the folder
+
+# Start the while loop
+while ($continue -ne "y") {
+    # Prompt the user for input
+    $continue = Read-Host "Copy your '.gifs' into the folder and PLEASE ENTER 'y' TO PROCEED"
+
+    # Check if the input is not 'y'
+    if ($continue -ne "y") {
+        Write-Host "Invalid input. Please enter 'y' to proceed."
+    }
+}
+
+# Perform the action after 'y' is entered
+Write-Host "Proceeding with the next steps..."
+
 foreach ($file in $gifs) {
     $GUID = [guid]::NewGuid().ToString()
     $new_filename = Join-Path -Path $file.DirectoryName -ChildPath "$GUID.jpg"
@@ -59,5 +82,6 @@ foreach ($file in $gifs) {
 # Copy both the new files from your gif path to the Destination MS Teams Uploads path
 copy-item -Path "C:\Users\$user\Pictures\Teams_Gifs\*" -Destination "C:\Users\$user\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\LocalCache\Microsoft\MSTeams\Backgrounds\Uploads\"
 
-# We revert to the local machine execution policy back to the default
+
+# We revert to the local machine execution policy
 Set-ExecutionPolicy $policy -Force
