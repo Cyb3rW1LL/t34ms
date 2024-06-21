@@ -31,7 +31,6 @@ if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdent
     exit;
 }
 
-
 # We test the path of the gif folder and create it if not already created
 if (-Not (Test-Path -Path $source)) {
     Write-Host '"Teams_Gifs" does not exist! Creating the folder now!'
