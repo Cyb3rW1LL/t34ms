@@ -25,8 +25,8 @@
 > 10. You're welcome... 
 
 # USE FREE SITES AT YOUR OWN RISK
-**It is good practice to scan files from free sites, just to ensure system security**
-**Examples of file analysis sites you can use and a URL reputation/resource scanner**
+> **It is good practice to scan files from free sites, just to ensure system security**
+> **Examples of file analysis sites you can use and a URL reputation/resource scanner**
 https://www.joesandbox.com/#windows
 https://www.hybrid-analysis.com/
 https://www.virustotal.com/gui/home/upload
