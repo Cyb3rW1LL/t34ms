@@ -16,9 +16,6 @@ $destination = "C:\Users\$user\AppData\Local\Packages\MSTeams_8wekyb3d8bbwe\Loca
 
 # This next section of code will run the script in an elevated powershell instance, a.k.a "Administrator"
 # and prompt you to allow the execution, click "yes."
-
-
-
 # First check if the script is running with administrator privileges
 if (-not ([Security.Principal.WindowsPrincipal] [Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator"))
 {
