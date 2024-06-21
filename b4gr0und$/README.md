@@ -23,3 +23,11 @@
 > 8. The script will complete execution and your backgrounds will be in your Teams folder
 > 9. Finally, when you open Teams, before you join a call or during, go to your "video effects and settings" icon or locate it in-call by way of the "..." option on your toolbar near the top of the Teams window (it says "More" underneath it), and choose the new custom background you want tehn apply it
 > 10. You're welcome... 
+
+# USE FREE SITES AT YOUR OWN RISK
+** It is good practice to scan files from free sites, just to ensure system security
+** Examples of file analysis sites you can use and a URL reputation/resource scanner**
+https://www.joesandbox.com/#windows
+https://www.hybrid-analysis.com/
+https://www.virustotal.com/gui/home/upload
+https://urlscan.io/
