@@ -1,7 +1,7 @@
 # AUthor: Cyb3rW1LL
 # Created: 06/20/2024
 #
-#
+# Your Execution policy must be set to either RemoteSigned or Bypass in order to run scripts
 #
 # This will get the current execution policy of the host and save it in the $policy variable
 # We reset the this value for the current security policy settings at the end.
