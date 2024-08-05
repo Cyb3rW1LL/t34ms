@@ -7,7 +7,7 @@
 <img width=50% height=50% src=https://github.com/Cyb3rW1LL/t34ms/assets/39623516/c366e763-8cee-45c1-8baf-4f50f25b587d>
 </p>
 
-
+## THIS MAY REQUIRE A TEMPORARY EXECUTION POLICY CHANGE IN ORDER TO RUN THE SCRIPT.
 ###
 > 1. Go to a '.gif' site like https://www.tenor.com
 > 2. Search for and download '.gifs' you like
